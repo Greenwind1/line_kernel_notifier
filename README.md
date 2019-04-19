@@ -19,3 +19,16 @@ https://notify-bot.line.me/my/
     e.g. line notify token, competition name..  
   
 6. Happy Kaggling !  
+
+
+---
+
+
+Reference
+
+1. u++ blog
+https://upura.hatenablog.com/entry/kaggle-notification
+
+2. u++ github
+https://github.com/upura/kaggle-notification-pub
+
