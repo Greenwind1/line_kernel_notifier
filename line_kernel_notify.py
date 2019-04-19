@@ -21,7 +21,7 @@ def kernel_notifier(message='', image_name=None):
     :return: nothing. just send message and image to line account.
     """
     url = "https://notify-api.line.me/api/notify"
-    token = 'xSN40QbcunPoUF8mECakxxfXS1cdTXNqwvZJQdfT4cG'
+    token = 'hogehoge'
     headers = {"Authorization": "Bearer " + token}
 
     payload = {"message": message}
