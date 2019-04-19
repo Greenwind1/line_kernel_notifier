@@ -44,11 +44,6 @@ api.authenticate()
 klist = api.kernels_list(competition=COMP_NAME, page_size=999)
 klist_old_ref = pickle_read(KERNEL_LIST)
 
-""" ref is url key """
-# for key in dir(klist[0]):
-#     print('{}: {}'.format(key, getattr(klist[0], key)))
-# kernel_notifier('https://www.kaggle.com/' + klist[0].ref)
-
 klist_ref = [k.ref for k in klist]
 
 if len(set(klist_ref) - set(klist_old_ref)) > 0:
