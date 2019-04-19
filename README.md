@@ -11,7 +11,7 @@ https://notify-bot.line.me/my/
 
 3. Issue an access token of LINE Notify.  
 
-4. Invite line notify to your talk room.  
+4. Invite line notify account to your talk room (where you will receive notifications).  
 
 5. Just run `line_kernel_notify.py` with following command.  
     `> python line_kernel_notify.py`  
