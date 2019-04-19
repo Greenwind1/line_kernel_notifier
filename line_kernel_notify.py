@@ -3,25 +3,29 @@
 from kaggle import KaggleApi
 import requests
 import os
-import sys
-
-sys.path.append('.')
 from functions import pickle_read, pickle_write
 
-COMP_NAME = 'freesound-audio-tagging-2019'
-KERNEL_LIST = './kernel_list/' + COMP_NAME + '.pkl'
+""" ENVIRONMENT SETTING """
+COMP_NAME = 'freesound-audio-tagging-2019'  # competition name
+KERNEL_LIST = './kernel_list/' + COMP_NAME + '.pkl'  # save directory
 
 os.makedirs('./kernel_list', exist_ok=True)
 
 
 def kernel_notifier(message='', image_name=None):
     """
-    :param message: text
-    :param image_name: image_file name (path)
-    :return: nothing. just send message and image to line account.
+
+    Send messages about new posted kernels.
+
+    ---
+
+    message: text
+    image_name: image_file name (path)
+
     """
+
     url = "https://notify-api.line.me/api/notify"
-    token = 'hogehoge'
+    token = 'hogehoge'  # change line api token to yours.
     headers = {"Authorization": "Bearer " + token}
 
     payload = {"message": message}
@@ -34,10 +38,8 @@ def kernel_notifier(message='', image_name=None):
     else:
         requests.post(url, headers=headers, params=payload)
 
-    # message = 'test'
-    # files = {"imageFile": open("./fig/uni1.jpg", "rb")}
 
-
+""" CREATE AND AUTHENTICATE KAGGLE API CLASS OBJECT """
 api = KaggleApi()
 api.authenticate()
 
