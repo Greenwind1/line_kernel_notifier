@@ -12,12 +12,13 @@ https://github.com/Kaggle/kaggle-api#api-credentials
 https://notify-bot.line.me/my/
 
 3. Issue an access token of LINE Notify.  
+<img src="issue-a-token_line.png" width="800">
 
 4. Invite line notify account to your talk room (where you will receive notifications).  
 
 5. Just run `line_kernel_notify.py` with following command.  
     `> python line_kernel_notify.py`  
-    Ofcourse you can pass sys.args after modifying `line_kernel_notify.py`.  
+    Ofcourse you can pass sys.argv after modifying `line_kernel_notify.py`.  
     e.g. line notify token, competition name..  
   
 6. Happy Kaggling !  
