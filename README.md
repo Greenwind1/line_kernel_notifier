@@ -24,8 +24,8 @@ Invite line notify account to your talk room (where you will receive notificatio
 
 
 <b>step 5.</b>  
-Add your token to the following line in `line_kernel_notify.py`.
-https://github.com/Greenwind1/line_kernel_notifier/blob/484c715e2827e07dc3173491d7b64179de900d62/line_kernel_notify.py#L28
+Add your token to the following line in `line_kernel_notify.py`.  
+https://github.com/Greenwind1/line_kernel_notifier/blob/484c715e2827e07dc3173491d7b64179de900d62/line_kernel_notify.py#L28  
 And just run `line_kernel_notify.py` with following command.  
     `> python line_kernel_notify.py`  
     Ofcourse you can pass sys.argv after modifying `line_kernel_notify.py`.  
