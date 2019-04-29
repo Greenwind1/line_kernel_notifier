@@ -5,7 +5,7 @@
 How to use
 
 1. Create a new API token of Kaggle and place a downloaded kaggle.json file to the location has been writen in the following instruction.
-https://github.com/Kaggle/kaggle-api#api-credentials
+https://github.com/Kaggle/kaggle-api#api-credentials  
 `~/.kaggle/kaggle.json (on Windows in the location C:\Users\<Windows-username>\.kaggle\kaggle.json - you can check the exact location, sans drive, with echo %HOMEPATH%)`
 
 2. Register and log in LINE Notify.  
