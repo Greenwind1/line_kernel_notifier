@@ -17,7 +17,7 @@ https://notify-bot.line.me/my/
 <b>step 3.</b>  
 Issue an access token of LINE Notify.  
 (DO NOT FORGET TAKE A NOTE OF YOUR ACCESS TOKEN)  
-<img src="issue-a-token_line.png" width="800">
+<img src="issue-a-token_line.png" width="600">
 
 
 <b>step 4.</b>  
