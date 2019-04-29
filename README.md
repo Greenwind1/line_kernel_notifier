@@ -1,6 +1,5 @@
 # line_kernel_notifier
-![kerneler-kun](kerneler-kun.png)
-
+<img src="kerneler-kun.png" width=200>
 
 How to use
 
