@@ -1,32 +1,43 @@
 # line_kernel_notifier
 <img src="kerneler-kun.png" width=200>
 
-How to use
+<b> How to use </b>
 
-1. Create a new API token of Kaggle and place a downloaded kaggle.json file to the location has been writen in the following instruction.
+<b>step 1.</b>  
+Create a new API token of Kaggle and place a downloaded kaggle.json file to the location has been writen in the following instruction.  
 https://github.com/Kaggle/kaggle-api#api-credentials  
 `~/.kaggle/kaggle.json (on Windows in the location C:\Users\<Windows-username>\.kaggle\kaggle.json - you can check the exact location, sans drive, with echo %HOMEPATH%)`
 
-2. Register and log in LINE Notify.  
+
+<b>step 2.</b>  
+Register and log in LINE Notify.  
 https://notify-bot.line.me/my/
 
-3. Issue an access token of LINE Notify.  
+
+<b>step 3.</b>  
+Issue an access token of LINE Notify.  
 <img src="issue-a-token_line.png" width="800">
 
-4. Invite line notify account to your talk room (where you will receive notifications).  
 
-5. Just run `line_kernel_notify.py` with following command.  
+<b>step 4.</b>  
+Invite line notify account to your talk room (where you will receive notifications).  
+
+
+<b>step 5.</b>  
+Just run `line_kernel_notify.py` with following command.  
     `> python line_kernel_notify.py`  
     Ofcourse you can pass sys.argv after modifying `line_kernel_notify.py`.  
     e.g. line notify token, competition name..  
-  
-6. Happy Kaggling !  
+
+
+<b>step 6.</b>  
+Happy Kaggling !  
 
 
 ---
 
 
-Reference
+<b>Reference</b>
 
 1. u++ blog
 https://upura.hatenablog.com/entry/kaggle-notification
