@@ -4,7 +4,7 @@
 <b> How to use </b>
 
 <b>step 1.</b>  
-Create a new API token of Kaggle and place a downloaded kaggle.json file to the location has been writen in the following instruction.  
+Create a new API token of Kaggle and place a downloaded kaggle.json file to the location: writen in the following instruction.  
 https://github.com/Kaggle/kaggle-api#api-credentials  
 `~/.kaggle/kaggle.json (on Windows in the location C:\Users\<Windows-username>\.kaggle\kaggle.json - you can check the exact location, sans drive, with echo %HOMEPATH%)`
 
